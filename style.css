@@ -17,7 +17,7 @@ body{
 	background:#f7f7fa url(image/ocean.jpg);
 	background-size:contain;
 	margin:10px;
-	animation:oceanMove 60s linear infinite;
+	animation:oceanMove 20s linear infinite;
 }
 
 p, li{
@@ -34,7 +34,7 @@ a:hover{color:#ff9600;text-decoration:none;}
 li{list-style:none;display:block;}
 
 .page-wrapper{
-	width:536px;
+	width:400px;
 	padding:0 20px;
 	margin:200px auto 0;
 	position:relative;
@@ -82,7 +82,7 @@ h1 {
 	background: transparent url(image/h1.gif) no-repeat top left;  
     filter: brightness(100);
 	width: 355px; 
-	height: 30px; 
+	height: auto; 
 	float: left;
 	margin: 0px;
 	}
@@ -91,7 +91,7 @@ h2 {
 	background: transparent url(image/h2.gif) no-repeat top left; 
     filter: brightness(0);
 	width: 167px; 
-	height: 12px; 
+	height: auto; 
 	float: right;
 	margin: 2px 0 0 0;
 	} 
@@ -99,7 +99,7 @@ h2 {
 .summary p:first-child {
 	background: transparent url(image/summary.gif) no-repeat;
 	width: 356px;
-	height: 49px;
+	height: auto;
 	margin: 0px 0px 6px 0px;
 	}
 .summary p:first-child, h2, h1 {
@@ -195,7 +195,7 @@ h2 {
 
 .sidebar h3 {
 	width: 141px;
-	height: 20px;
+	height: auto;
 	display: block;
 	margin: 0px;
 	}
