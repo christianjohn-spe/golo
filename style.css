@@ -260,7 +260,7 @@ footer a:link, footer a:visited {
 	} */
 
 /* .extra3 { 
-	background: url(image/fish01.jpg) no-repeat right top; 
+	background: url(image/fish01.webp) no-repeat right top; 
 	z-index: 3;
 	top: 960px;
 	right: 4%;
@@ -271,7 +271,7 @@ footer a:link, footer a:visited {
 .extra3::after { 
 	display: block;
 	content: " ";
-	background: url(image/fish_bottom.gif) no-repeat; 
+	background: url(image/fish_bottom.webp) no-repeat; 
 	z-index: 3;
 	top: 1000px;
 	width: 224px; 
@@ -288,7 +288,7 @@ footer a:link, footer a:visited {
 	} */
 
 .extra5 { 
-	background: url(image/fish_top.jpg) no-repeat; 
+	background: url(image/fish_top.webp) no-repeat; 
 	z-index: 7;
 	top: 220px;
 	left: 20px;
